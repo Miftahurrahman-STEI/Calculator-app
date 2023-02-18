@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto+Sans', sans-serif;
+}
+
+body{
+    background: #e0dddd;
+}
+
+.container{
+    max-width: 428px;
+    width: 100%;
+    margin-inline: auto;
+    cursor: pointer;
+}
+
+.display{
+    height: 30vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 2rem;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.button-group{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #3f3d3d;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    gap: 1rem;
+    padding: 2rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.btn{
+    all: unset;
+    background-color: #5a5959;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+
+.merah{
+    color: #000;
+    background-color: #FAFAFA;
+    font-size: 35px;
+}
+
+.samadengan{
+    color: #fff;
+    background-color: #FF8B00;
+}
+
+.hijau{
+    color: #fff;
+    background-color: #5a595942;
+    border: 1px solid #f0eeed60;
+    box-shadow: 1px 3px 3px #B2B2B2;
+}
